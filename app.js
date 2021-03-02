@@ -13,25 +13,25 @@ var i;
 "<h2>el numero enteros</h2> "
 for (i = 0; i < 201; i++) {
     if (i === 211) { break; }
-    text += "el numero enteros " + i + "<br>";
+    text += "Numeros Enteros  :  " + i + "<br>";
   }
   '<br/>'
   '<hr/>'
 
 for (i = 0; i < 201; i=i+3) {
   if (i === 201) { break; }
-  text1 += "el numero es multiplos de tres Fizz " + i + "<br>";
+  text1 += "  Múltiplos de 3 Fizz  : " + i + "<br>";
 }
 "<br>"
 "<hr>"
 
 for (i = 0; i < 201; i=i+5) {
     if (i === 201) { break; }
-    text2 += "el numero es multiplos de tres Buzz " + i + "<br>";
+    text2 += " Múltiplos de 5 Buzz  :  " + i + "<br>";
   }
   for (i = 0; i < 201; i=i+3*5) {
     if (i === 201) { break; }
-    text3 += "el numero es multiplos de tres y de cinco  FizzBuzz " + i + "<br>";
+    text3 += " Múltiplos de 3 y 5 FizzBuzz  :   " + i + "<br>";
   }
 var demo = document.getElementById("demo");
 demo.innerHTML += `
